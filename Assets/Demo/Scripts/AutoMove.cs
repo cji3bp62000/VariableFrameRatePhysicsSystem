@@ -39,7 +39,7 @@ public class AutoMove : MonoBehaviour
         while (currentTime < moveTime) {
             transform.position =
                 Vector3.MoveTowards(transform.position, goal, velocity * Time.deltaTime);
-            currentTime = Mathf.Min(Time.deltaTime + Time.deltaTime, moveTime);
+            currentTime = Mathf.Min(currentTime + Time.deltaTime, moveTime);
 
             await UniTask.Yield(ct);
         }
