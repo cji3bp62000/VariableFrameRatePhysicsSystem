@@ -3,7 +3,12 @@ VariableFrameRatePhysicsSystem は、FixedUpdate の時間幅（Time.fixedDeltaT
 様々な `Rigidbody`・`FixedUpdate` での不具合を解消しようとする提案手法です。
 
 詳しくは Qiita の紹介記事をご覧ください。<br/>
-リンク→ (後日更新)
+リンク→ https://qiita.com/tsukimi_neko/items/acf2d1dce01ea97885cf
+
+# DL 及び使い方
+
+右側の `Releases` から UnityPackage をダウンロードして、プロジェクトにインポートすれば完成です！ いわゆる Plug and Play で、特に設定も要りません。
+
 
 # VariableFrameRatePhysicsSystem の出来ること
 
