@@ -4,11 +4,12 @@ VariableFrameRatePhysicsSystem は、FixedUpdate の時間幅（Time.fixedDeltaT
 
 詳しくは Qiita の紹介記事をご覧ください。<br/>
 リンク→ https://qiita.com/tsukimi_neko/items/acf2d1dce01ea97885cf
+<br/><br/>
 
 # DL 及び使い方
 
 右側の `Releases` から UnityPackage をダウンロードして、プロジェクトにインポートすれば完成です！ いわゆる Plug and Play で、特に設定も要りません。
-
+<br/><br/>
 
 # VariableFrameRatePhysicsSystem の出来ること
 
@@ -18,6 +19,7 @@ VariableFrameRatePhysicsSystem は下記の不具合を解消しています：
 - `FixedUpdate` の中で、`Input.GetKeyDown()`, `Input.GetKeyUp()` が時々取れない不具合
 
 具体的に、毎フレーム Time.fixedDeltaTime を Time.deltaTime に合わせています。
+<br/><br/>
 
 # 3 つの更新手法
 
@@ -38,6 +40,7 @@ VariableFrameRatePhysicsSystem は 3 つの FixedDeltaTimeType を提供して�
   - 毎フレームは **1** 回以上 `FixedUpdate` を実行する
 
 デフォルトの設定は「`Variable`」です。
+<br/><br/>
 
 # 手法設定
 ゲーム開始時のデフォルト手法が設定出来ます。
